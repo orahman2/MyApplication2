@@ -48,4 +48,27 @@
         android:layout_marginTop="18dp"
         android:text="@string/brands"
         />
+
+    <TextView
+        android:id="@+id/soda_add_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/soda_add_prompt"
+        />
+
+    <EditText
+        android:id="@+id/add_color"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/color_hint"
+        android:layout_below=""
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/add_soda"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/soda_hint"
+        android:layout_toRightOf="@+id/add_color"
+        android:layout_toEndOf="@+id/add_color"
+        android:inputType="text" />
 </RelativeLayout>

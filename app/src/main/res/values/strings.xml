@@ -3,7 +3,10 @@
     <string name="action_settings">Settings</string>
     <string name="find_beer">Find soda!</string>
     <string name="brands"></string>
-    <string name="welcome_message">Choose a colour and find your drink!</string>
+    <string name="welcome_message">Choose a colour and find your drink below!</string>
+    <string name="color_hint">color name</string>
+    <string name="soda_hint">soda name</string>
+    <string name="soda_add_prompt">Please enter the color and name of the soda you\'d like to add below</string>
     <string-array name="soda_colors">
     <item>light</item>
     <item>amber</item>
