@@ -14,6 +14,7 @@
         android:id="@+id/welcome_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_marginTop="50dp"
         android:text="@string/welcome_message"
         />
@@ -21,9 +22,9 @@
         android:id="@+id/color"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/welcome_message"
+        android:layout_marginTop="18dp"
         android:entries="@array/soda_colors"
         />
 
@@ -33,6 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/color"
         android:layout_below="@+id/color"
+        android:layout_marginTop="10dp"
         android:text="@string/find_beer"
         android:onClick="onClickFindSoda"
         />
