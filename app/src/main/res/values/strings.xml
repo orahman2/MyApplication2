@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Soda Adviser</string>
+    <string name="action_settings">Settings</string>
+    <string name="find_beer">Find soda!</string>
+    <string name="brands"></string>
+    <string name="welcome_message">Choose a colour and find your drink!</string>
+    <string-array name="soda_colors">
+    <item>light</item>
+    <item>amber</item>
+    <item>brown</item>
+    <item>dark</item>
+    </string-array>
+</resources>
