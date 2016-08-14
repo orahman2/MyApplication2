@@ -26,6 +26,7 @@
         android:layout_below="@+id/welcome_message"
         android:layout_marginTop="18dp"
         android:entries="@array/soda_colors"
+        
         />
 
     <Button
